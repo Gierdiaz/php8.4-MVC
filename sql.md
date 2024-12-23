@@ -39,6 +39,20 @@ SHOW DATABASES;
 
 ```sql
 USE nome_do_banco;
+
+```
+
+### Copiar o arquivo sql para o container
+
+```sql
+docker cp library.sql mysql-db:/library.sql
+
+```
+
+### Carregar o arquivo SQL no MySQL
+
+```sql
+SOURCE /library.sql;
 ```
 
 ### Excluir um banco de dados:
