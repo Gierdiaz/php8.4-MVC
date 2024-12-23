@@ -6,7 +6,7 @@ use App\DAO\AuthorDAO;
 use App\Model\Author;
 use mysqli;
 
-class AuthroController
+class AuthorController
 {
     private $dao;
 
